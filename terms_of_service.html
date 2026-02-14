@@ -1,206 +1,1047 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terms of Service</title>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính sách Quyền riêng tư - Tài lộc quá lớn</title>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        background-color: #f5f5f5;
-        padding: 20px;
-      }
-      .container {
-        max-width: 800px;
-        margin: 0 auto;
-        background: white;
-        padding: 30px;
-        border-radius: 12px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      }
-      h1 {
-        color: #1a1a1a;
-        margin-bottom: 10px;
-        font-size: 28px;
-      }
-      .last-updated {
-        color: #666;
-        font-size: 14px;
-        margin-bottom: 30px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid #e0e0e0;
-      }
-      h2 {
-        color: #1a1a1a;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        font-size: 20px;
-      }
-      p {
-        margin-bottom: 15px;
-        color: #555;
-      }
-      ul {
-        margin-left: 20px;
-        margin-bottom: 15px;
-      }
-      li {
-        margin-bottom: 8px;
-        color: #555;
-      }
-      .contact-section {
-        margin-top: 30px;
-        padding: 20px;
-        background: #f9f9f9;
-        border-radius: 8px;
-      }
-      a {
-        color: #007aff;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.15);
+        }
+        h1 {
+            color: white;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        .effective-date {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+        .intro-box {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #667eea;
+        }
+        .commitment {
+            background: #f0f7ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .commitment ul {
+            list-style: none;
+            padding: 0;
+        }
+        .commitment li {
+            padding: 8px 0 8px 20px;
+            position: relative;
+        }
+        .commitment li::before {
+            content: "✓";
+            color: #667eea;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .toc {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .toc h2 {
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+        .toc li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .toc a {
+            color: #333;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        .toc a:hover {
+            color: #667eea;
+        }
+        .toc-number {
+            background: #667eea;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+        section {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        h2 {
+            color: #667eea;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        h3 {
+            color: #444;
+            font-size: 1.25rem;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        h4 {
+            color: #555;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th {
+            background: #667eea;
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        tr:nth-child(even) td {
+            background: #f9f9f9;
+        }
+        tr:hover td {
+            background: #f0f7ff;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .important-box {
+            background: #d1ecf1;
+            border: 1px solid #667eea;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .no-collect-box {
+            background: #f8d7da;
+            border: 1px solid #dc3545;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .no-collect-box li {
+            padding: 5px 0 5px 25px;
+        }
+        .no-collect-box li::before {
+            content: "✗";
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 30px;
+        }
+        .contact-box p {
+            color: white;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .contact-info a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .contact-info a:hover {
+            color: #f0f7ff;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            header {
+                padding: 30px 15px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            section {
+                padding: 20px 15px;
+            }
+            table {
+                font-size: 0.85rem;
+            }
+            th, td {
+                padding: 8px 10px;
+            }
+            .contact-info {
+                padding: 15px;
+            }
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-      <h1>Terms of Service</h1>
-      <p class="last-updated">Last Updated: February 11, 2026</p>
+        <header>
+            <h1>Chính sách Quyền riêng tư</h1>
+            <p class="effective-date">
+                Ngày có hiệu lực: 14/02/2026 | Cập nhật lần cuối: 14/02/2026
+            </p>
+        </header>
 
-      <h2>1. Acceptance of Terms</h2>
-      <p>
-        By downloading, accessing, or using the Altar mobile application
-        ("App"), you agree to be bound by these Terms of Service ("Terms"). If
-        you do not agree to these Terms, please do not use our App.
-      </p>
+        <div class="intro-box">
+            <h2>GIỚI THIỆU</h2>
+            <p>
+                Chính sách Quyền riêng tư này quy định cách thức <strong>CÔNG TY CỔ PHẦN CÔNG NGHỆ DVAT</strong> ("chúng tôi", "DVAT" hoặc "Công ty") thu thập, sử dụng, lưu trữ, chia sẻ và bảo vệ thông tin cá nhân của bạn khi bạn sử dụng Ứng dụng Tài lộc quá lớn có sẵn trên CH Play Store và Apple App Store (gọi chung là "Ứng dụng") và các dịch vụ liên quan.
+            </p>
+            <p>
+                Chính sách này áp dụng cho tất cả người dùng của Ứng dụng, bất kể vị trí địa lý hoặc phương thức truy cập. Bằng việc tải xuống, cài đặt, đăng ký hoặc sử dụng Ứng dụng, bạn đồng ý với việc thu thập, sử dụng, xử lý và chuyển giao thông tin cá nhân của bạn như được mô tả trong Chính sách Quyền riêng tư này.
+            </p>
+            <div class="commitment">
+                <h3>Chúng tôi cam kết:</h3>
+                <ul>
+                    <li>Không bán dữ liệu cá nhân của bạn cho bất kỳ bên thứ ba nào</li>
+                    <li>Không sử dụng dữ liệu của bạn cho mục đích quảng cáo, theo dõi hoặc tiếp thị</li>
+                    <li>Chỉ thu thập dữ liệu thực sự cần thiết để vận hành ứng dụng</li>
+                    <li>Bảo vệ dữ liệu của bạn bằng các biện pháp bảo mật phù hợp</li>
+                </ul>
+            </div>
+            <div class="warning-box">
+                <strong>Lưu ý quan trọng:</strong> Tài lộc quá lớn là ứng dụng hỗ trợ trải nghiệm tâm linh và văn hóa truyền thống. Ứng dụng không phải là thiết bị y tế và không cung cấp lời khuyên y tế, pháp lý, tài chính hoặc chuyên môn khác. Mọi thông tin trong Ứng dụng chỉ mang tính chất tham khảo, hỗ trợ.
+            </div>
+        </div>
 
-      <h2>2. Description of Service</h2>
-      <p>
-        Altar is a mobile application that provides [describe your app's main
-        features - e.g., gold shop services, virtual goods, etc.]. We reserve
-        the right to modify, suspend, or discontinue the service at any time.
-      </p>
+        <div class="toc">
+            <h2>MỤC LỤC</h2>
+            <ul>
+                <li><a href="#section1"><span class="toc-number">1</span> THÔNG TIN CÁ NHÂN ĐƯỢC THU THẬP</a></li>
+                <li><a href="#section2"><span class="toc-number">2</span> CƠ SỞ PHÁP LÝ CHO VIỆC XỬ LÝ DỮ LIỆU</a></li>
+                <li><a href="#section3"><span class="toc-number">3</span> SỬ DỤNG THÔNG TIN CÁ NHÂN</a></li>
+                <li><a href="#section4"><span class="toc-number">4</span> CHIA SẺ VÀ TIẾT LỘ THÔNG TIN CÁNHÂN</a></li>
+                <li><a href="#section5"><span class="toc-number">5</span> COOKIE VÀ CÔNG CỤ THEO DÕI</a></li>
+                <li><a href="#section6"><span class="toc-number">6</span> DỮ LIỆU PHÂN TÍCH VÀ LOG</a></li>
+                <li><a href="#section7"><span class="toc-number">7</span> QUYỀN CỦA CHỦ THỂ DỮ LIỆU</a></li>
+                <li><a href="#section8"><span class="toc-number">8</span> BẢO MẬT THÔNG TIN VÀ CHUYỂN DỮ LIỆU</a></li>
+                <li><a href="#section9"><span class="toc-number">9</span> LƯU TRỮ VÀ XÓA DỮ LIỆU</a></li>
+                <li><a href="#section10"><span class="toc-number">10</span> QUYỀN RIÊNG TƯ CỦA TRẺ EM</a></li>
+                <li><a href="#section11"><span class="toc-number">11</span> LIÊN KẾT BÊN THỨ BA</a></li>
+                <li><a href="#section12"><span class="toc-number">12</span> NỘI DUNG DO NGƯỜI DÙNG TẠO</a></li>
+                <li><a href="#section13"><span class="toc-number">13</span> THÔNG BÁO VI PHẠM DỮ LIỆU</a></li>
+                <li><a href="#section14"><span class="toc-number">14</span> THAY ĐỔI CHÍNH SÁCH QUYỀN RIÊNG TƯ</a></li>
+                <li><a href="#section15"><span class="toc-number">15</span> PHƯƠNG THỨC GIẢI QUYẾT TRANH CHẤP</a></li>
+                <li><a href="#section16"><span class="toc-number">16</span> LIÊN HỆ</a></li>
+            </ul>
+        </div>
 
-      <h2>3. User Accounts</h2>
-      <h3>3.1 Account Creation</h3>
-      <ul>
-        <li>You must be at least 13 years old to use this App</li>
-        <li>
-          You are responsible for maintaining the confidentiality of your
-          account credentials
-        </li>
-        <li>
-          You are responsible for all activities that occur under your account
-        </li>
-        <li>You must provide accurate and complete information</li>
-      </ul>
+        <section id="section1">
+            <h2>1. THÔNG TIN CÁ NHÂN ĐƯỢC THU THẬP</h2>
+            <p>Chúng tôi chỉ thu thập những dữ liệu thực sự cần thiết để vận hành ứng dụng, cải thiện trải nghiệm người dùng và tuân thủ các yêu cầu pháp lý. Nguyên tắc thu thập dữ liệu của chúng tôi là: <strong>Càng ít càng tốt, Chỉ khi cần thiết</strong>.</p>
 
-      <h3>3.2 Authentication</h3>
-      <p>
-        The App uses Apple Sign In for authentication. By using this service,
-        you agree to Apple's terms and conditions regarding the use of your
-        Apple ID.
-      </p>
+            <h3>1.1 Thông tin tài khoản và Xác thực</h3>
+            <p>Để tạo tài khoản và xác thực danh tính, chúng tôi thu thập:</p>
+            <table>
+                <tr>
+                    <th>Loại thông tin</th>
+                    <th>Mục đích sử dụng</th>
+                    <th>Cơ sở pháp lý</th>
+                    <th>Thời gian lưu trữ</th>
+                </tr>
+                <tr>
+                    <td><strong>Địa chỉ Email</strong></td>
+                    <td>Đăng ký tài khoản, đăng nhập, khôi phục mật khẩu, gửi thông báo</td>
+                    <td>Thỏa thuận dịch vụ</td>
+                    <td>Khoảng 30 ngày sau xóa tài khoản</td>
+                </tr>
+                <tr>
+                    <td><strong>Số điện thoại</strong></td>
+                    <td>Đăng ký tài khoản, xác thực 2FA, bảo mật tài khoản</td>
+                    <td>Thỏa thuận dịch vụ</td>
+                    <td>Khoảng 30 ngày sau xóa tài khoản</td>
+                </tr>
+                <tr>
+                    <td><strong>Họ và tên / Tên hiển thị</strong></td>
+                    <td>Hiển thị trên hồ sơ người dùng, bảng xếp hạng, tính năng xã hội</td>
+                    <td>Thỏa thuận dịch vụ</td>
+                    <td>Khoảng 30 ngày sau xóa tài khoản</td>
+                </tr>
+                <tr>
+                    <td><strong>Mã định danh mạng xã hội (Social ID)</strong></td>
+                    <td>Xác thực khi đăng nhập qua Google/Apple Sign-In, liên kết tài khoản</td>
+                    <td>Thỏa thuận dịch vụ</td>
+                    <td>Khoảng 30 ngày sau xóa tài khoản</td>
+                </tr>
+                <tr>
+                    <td><strong>Ảnh đại diện (Avatar)</strong></td>
+                    <td>Hiển thị trên hồ sơ, bảng xếp hạng</td>
+                    <td>Sự đồng ý của người dùng</td>
+                    <td>Khoảng 30 ngày sau xóa tài khoản</td>
+                </tr>
+                <tr>
+                    <td><strong>Ngày sinh</strong> (tùy chọn)</td>
+                    <td>Cá nhân hóa trải nghiệm, tính năng đặc biệt</td>
+                    <td>Sự đồng ý của người dùng</td>
+                    <td>Khoảng 30 ngày sau xóa tài khoản</td>
+                </tr>
+            </table>
 
-      <h2>4. Purchases and Payments</h2>
-      <h3>4.1 Virtual Goods</h3>
-      <p>
-        The App may offer virtual goods for purchase, including but not limited
-        to gold packages and in-game currency.
-      </p>
+            <h3>1.2 Dữ liệu người dùng và Hoạt động trong Ứng dụng</h3>
+            <p>Tài lộc quá lớn là ứng dụng trải nghiệm tâm linh và văn hóa, do đó chúng tôi cần thu thập các thông tin sau để cung cấp dịch vụ:</p>
+            <table>
+                <tr>
+                    <th>Loại dữ liệu</th>
+                    <th>Chi tiết cụ thể</th>
+                    <th>Mục đích sử dụng</th>
+                </tr>
+                <tr>
+                    <td><strong>Số vàng (Gold Coins)</strong></td>
+                    <td>- Số dư vàng hiện tại<br>- Lịch sử nạp vàng<br>- Lịch sử tiêu vàng<br>- Biên lai giao dịch</td>
+                    <td>- Mua vật phẩm<br>- Mở khóa tính năng<br>- Theo dõi giao dịch<br>- Hỗ trợ khách hàng</td>
+                </tr>
+                <tr>
+                    <td><strong>Lịch sử bốc quẻ</strong></td>
+                    <td>- Loại quẻ đã bốc<br>- Kết quả quẻ<br>- Thời điểm bốc quẻ<br>- Lịch sử tham chiếu</td>
+                    <td>- Cung cấp lại quẻ đã xem<br>- Phân tích hành vi sử dụng<br>- Cải thiện dịch vụ</td>
+                </tr>
+                <tr>
+                    <td><strong>Vật phẩm bàn thờ</strong></td>
+                    <td>- Danh sách vật phẩm đã mua<br>- Vị trí đặt vật phẩm trên bàn thờ<br>- Trạng thái kích hoạt vật phẩm</td>
+                    <td>- Lưu cấu hình bàn thờ<br>- Đồng bộ hóa giữa thiết bị<br>- Khôi phục khi chuyển máy</td>
+                </tr>
+                <tr>
+                    <td><strong>Sự kiện đã tham gia</strong></td>
+                    <td>- Lịch sử sự kiện<br>- Phần thưởng đã nhận<br>- Tiến độ sự kiện</td>
+                    <td>- Theo dõi hoạt động<br>- Cung cấp phần thưởng<br>- Phân tích hiệu quả sự kiện</td>
+                </tr>
+            </table>
 
-      <h3>4.2 Pricing</h3>
-      <ul>
-        <li>All prices are displayed in your local currency</li>
-        <li>We reserve the right to change prices at any time</li>
-        <li>All sales are final unless otherwise stated</li>
-      </ul>
+            <h3>1.3 Dữ liệu thu thập tự động (Dữ liệu kỹ thuật)</h3>
+            <p>Để đảm bảo ứng dụng hoạt động ổn định, gửi thông báo và cải thiện dịch vụ, chúng tôi có thể thu thập thông tin kỹ thuật:</p>
+            <table>
+                <tr>
+                    <th>Loại dữ liệu</th>
+                    <th>Chi tiết</th>
+                    <th>Mục đích sử dụng</th>
+                    <th>Thời gian lưu trữ</th>
+                </tr>
+                <tr>
+                    <td><strong>Mã định danh ứng dụng (Instance IDs)</strong></td>
+                    <td>Token được Firebase cấp cho mỗi thiết bị</td>
+                    <td>Gửi thông báo đẩy (Push Notification)</td>
+                    <td>Khi gỡ cài đặt hoặc thay đổi token</td>
+                </tr>
+                <tr>
+                    <td><strong>Thông tin phiên bản app</strong></td>
+                    <td>- Số phiên bản<br>- Hệ điều hành (iOS/Android)<br>- Phiên bản hệ điều hành</td>
+                    <td>- Khắc phục lỗi<br>- Hỗ trợ kỹ thuật<br>- Phân phối bản cập nhật</td>
+                    <td>Không lưu trữ riêng, chỉ ghi log</td>
+                </tr>
+            </table>
 
-      <h3>4.3 Payment Processing</h3>
-      <p>
-        Payment processing is handled through third-party payment processors. By
-        making a purchase, you agree to their terms of service.
-      </p>
+            <div class="no-collect-box">
+                <h4>KHÔNG THU THẬP:</h4>
+                <ul>
+                    <li>ID thiết bị (Device ID/IDFA, GAID)</li>
+                    <li>Địa chỉ IP</li>
+                    <li>Thông tin vị trí (GPS/Location)</li>
+                    <li>Thông tin cảm biến thiết bị ngoài mục đích cơ bản</li>
+                </ul>
+            </div>
 
-      <h2>5. User Conduct</h2>
-      <p>You agree NOT to:</p>
-      <ul>
-        <li>Use the App for any illegal purpose</li>
-        <li>Attempt to gain unauthorized access to our systems</li>
-        <li>Use automated tools to access the App</li>
-        <li>Interfere with other users' enjoyment of the App</li>
-        <li>Reverse engineer or attempt to extract source code</li>
-        <li>Transmit viruses or malicious code</li>
-      </ul>
+            <h3>1.4 Dữ liệu thu thập thông qua In-App Purchase</h3>
+            <p>Khi bạn thực hiện giao dịch mua vàng hoặc vật phẩm thông qua Apple App Store hoặc Google Play Store:</p>
+            <table>
+                <tr>
+                    <th>Loại dữ liệu</th>
+                    <th>Chi tiết</th>
+                    <th>Mục đích sử dụng</th>
+                    <th>Thời gian lưu trữ</th>
+                </tr>
+                <tr>
+                    <td><strong>Thông tin giao dịch</strong></td>
+                    <td>- Gói nạp đã chọn<br>- Số vàng nhận được<br>- Giá trị giao dịch<br>- Thời điểm giao dịch</td>
+                    <td>- Xác thực giao dịch<br>- Cập nhật số vàng<br>- Lịch sử giao dịch</td>
+                    <td>Ít nhất 2 năm (yêu cầu pháp lý)</td>
+                </tr>
+                <tr>
+                    <td><strong>Biên lai giao dịch</strong></td>
+                    <td>- Mã giao dịch từ Apple/Google<br>- Trạng thái giao dịch</td>
+                    <td>- Hỗ trợ khi có vấn đề<br>- Xử lý hoàn tiền<br>- Giải quyết tranh chấp</td>
+                    <td>Ít nhất 2 năm (yêu cầu pháp lý)</td>
+                </tr>
+            </table>
+            <div class="important-box">
+                <strong>LƯU Ý QUAN TRỌNG:</strong>
+                <ul>
+                    <li>Chúng tôi <strong>KHÔNG</strong> lưu trữ thông tin thẻ tín dụng, số tài khoản ngân hàng hay bất kỳ thông tin thanh toán nào</li>
+                    <li>Tất cả giao dịch được xử lý trực tiếp và an toàn qua Apple App Store hoặc Google Play Store</li>
+                    <li>Biên lai giao dịch chỉ chứa mã định danh từ cửa hàng ứng dụng, không chứa thông tin thanh toán cá nhân</li>
+                </ul>
+            </div>
 
-      <h2>6. Intellectual Property</h2>
-      <p>
-        All content, features, and functionality of the App, including but not
-        limited to text, graphics, logos, and software, are owned by Altar and
-        are protected by copyright, trademark, and other intellectual property
-        laws.
-      </p>
+            <h3>1.5 Dữ liệu chúng tôi KHÔNG thu thập</h3>
+            <p>Để đảm bảo tối đa quyền riêng tư của người dùng, chúng tôi khẳng định KHÔNG thu thập:</p>
+            <table>
+                <tr>
+                    <th>Loại dữ liệu</th>
+                    <th>Lý do không thu thập</th>
+                </tr>
+                <tr>
+                    <td><strong>Dữ liệu khuôn mặt (Face Data)</strong></td>
+                    <td>Không có tính năng nhận diện khuôn mặt</td>
+                </tr>
+                <tr>
+                    <td><strong>Dữ liệu định vị (GPS/Location)</strong></td>
+                    <td>Ứng dụng không yêu cầu vị trí</td>
+                </tr>
+                <tr>
+                    <td><strong>Danh bạ điện thoại (Contacts)</strong></td>
+                    <td>Không có tính năng tìm bạn qua danh bạ</td>
+                </tr>
+                <tr>
+                    <td><strong>Lịch sử cuộc gọi và tin nhắn</strong></td>
+                    <td>Không có tính năng liên quan</td>
+                </tr>
+                <tr>
+                    <td><strong>Thông tin thanh toán (Thẻ tín dụng/Ngân hàng)</strong></td>
+                    <td>Được xử lý bởi Apple/Google</td>
+                </tr>
+                <tr>
+                    <td><strong>Dữ liệu sinh trắc học (vân tay, Face ID)</strong></td>
+                    <td>Chỉ dùng để xác thực thiết bị, không thu thập</td>
+                </tr>
+            </table>
+        </section>
 
-      <h2>7. Termination</h2>
-      <p>
-        We may terminate or suspend your account and access to the App at our
-        sole discretion, without prior notice, for conduct that we believe
-        violates these Terms or is harmful to other users, us, or third parties.
-      </p>
+        <section id="section2">
+            <h2>2. CƠ SỞ PHÁP LÝ CHO VIỆC XỬ LÝ DỮ LIỆU</h2>
+            <p>Chúng tôi xử lý thông tin cá nhân của bạn dựa trên các cơ sở pháp lý sau, theo quy định của Luật An ninh mạng Việt Nam và các quy định liên quan:</p>
 
-      <h2>8. Disclaimers</h2>
-      <p>
-        THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY
-        KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED
-        WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
-        NON-INFRINGEMENT.
-      </p>
+            <h3>2.1 Thỏa thuận dịch vụ</h3>
+            <p>Khi bạn tạo tài khoản và sử dụng Ứng dụng, chúng tôi cần xử lý thông tin cá nhân để thực hiện thỏa thuận dịch vụ giữa hai bên. Điều này bao gồm:</p>
+            <ul>
+                <li>Xác thực và quản lý tài khoản của bạn</li>
+                <li>Cung cấp các tính năng và dịch vụ của Ứng dụng</li>
+                <li>Xử lý giao dịch mua vàng và vật phẩm</li>
+                <li>Gửi thông báo quan trọng về dịch vụ</li>
+            </ul>
 
-      <h2>9. Limitation of Liability</h2>
-      <p>
-        TO THE MAXIMUM EXTENT PERMITTED BY LAW, ALTAR SHALL NOT BE LIABLE FOR
-        ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES,
-        INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS, DATA, USE, GOODWILL, OR
-        OTHER INTANGIBLE LOSSES.
-      </p>
+            <h3>2.2 Sự đồng ý của người dùng</h3>
+            <p>Đối với các hoạt động không cần thiết để cung cấp dịch vụ cơ bản, chúng tôi sẽ yêu cầu sự đồng ý cụ thể của bạn:</p>
+            <ul>
+                <li>Gửi thông báo khuyến mãi và sự kiện</li>
+                <li>Thu thập dữ liệu thống kê sử dụng</li>
+                <li>Sử dụng dữ liệu để cải thiện dịch vụ</li>
+                <li>Cá nhân hóa trải nghiệm dựa trên sở thích</li>
+            </ul>
+            <p>Sự đồng ý của bạn có thể được thu hồi bất cứ lúc nào thông qua cài đặt của Ứng dụng hoặc bằng cách liên hệ với chúng tôi.</p>
 
-      <h2>10. Governing Law</h2>
-      <p>
-        These Terms shall be governed by and construed in accordance with the
-        laws of [Your Jurisdiction], without regard to its conflict of law
-        provisions.
-      </p>
+            <h3>2.3 Nghĩa vụ pháp lý</h3>
+            <p>Chúng tôi có thể cần xử lý dữ liệu cá nhân để tuân thủ các nghĩa vụ pháp lý:</p>
+            <ul>
+                <li>Yêu cầu của cơ quan nhà nước có thẩm quyền</li>
+                <li>Quy định về bảo vệ dữ liệu cá nhân</li>
+                <li>Quy định về lưu trữ giao dịch thương mại</li>
+                <li>Quy định về chống gian lận và rửa tiền</li>
+            </ul>
+        </section>
 
-      <h2>11. Changes to Terms</h2>
-      <p>
-        We reserve the right to modify these Terms at any time. We will notify
-        users of any material changes via the App or by email. Your continued
-        use of the App after such modifications constitutes your acceptance of
-        the updated Terms.
-      </p>
+        <section id="section3">
+            <h2>3. SỬ DỤNG THÔNG TIN CÁNHÂN</h2>
+            <p>Chúng tôi sử dụng thông tin cá nhân đã thu thập cho các mục đích cụ thể sau:</p>
 
-      <div class="contact-section">
-        <h2>12. Contact Us</h2>
-        <p>
-          If you have any questions about these Terms of Service, please contact
-          us:
-        </p>
-        <p>
-          <strong>Email:</strong>
-          <a href="mailto:contact.capylabs@gmail.com"
-            >contact.capylabs@gmail.com</a
-          >
-        </p>
-      </div>
+            <h3>3.1 Cung cấp và vận hành dịch vụ</h3>
+            <ul>
+                <li><strong>Đăng nhập và xác thực:</strong> Xác thực danh tính của bạn khi đăng nhập, bảo mật tài khoản</li>
+                <li><strong>Cá nhân hóa trải nghiệm:</strong> Tùy chỉnh giao diện, nội dung dựa trên hoạt động của bạn</li>
+                <li><strong>Cung cấp tính năng:</strong> Cho phép truy cập các tính năng như bốc quẻ, mua vật phẩm, tham gia sự kiện</li>
+                <li><strong>Đồng bộ hóa:</strong> Đồng bộ dữ liệu giữa các thiết bị của bạn</li>
+            </ul>
+
+            <h3>3.2 Gửi thông báo</h3>
+            <p>Chúng tôi có thể gửi thông báo cho các mục đích sau:</p>
+            <table>
+                <tr>
+                    <th>Loại thông báo</th>
+                    <th>Tần suất</th>
+                    <th>Có thể tắt?</th>
+                </tr>
+                <tr>
+                    <td><strong>Thông báo đẩy quan trọng</strong></td>
+                    <td>Khi cần thiết</td>
+                    <td>Không (quan trọng cho dịch vụ)</td>
+                </tr>
+                <tr>
+                    <td><strong>Thông báo sự kiện/khuyến mãi</strong></td>
+                    <td>Theo sự kiện</td>
+                    <td>Có</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="section4">
+            <h2>4. CHIA SẺ VÀ TIẾT LỘ THÔNG TIN CÁNHÂN</h2>
+            <p>Chúng tôi không chia sẻ dữ liệu của bạn với các bên thứ ba trừ khi áp dụng một trong các trường hợp sau:</p>
+
+            <h3>4.1 Chia sẻ với sự đồng ý của bạn</h3>
+            <p>Chúng tôi <strong>KHÔNG</strong> chia sẻ thông tin cá nhân của bạn với bên thứ ba nếu không có sự đồng ý rõ ràng, cụ thể và tự nguyện của bạn.</p>
+
+            <h3>4.2 Chia sẻ với Nhà cung cấp dịch vụ</h3>
+            <p>Chúng tôi chỉ chia sẻ thông tin tối thiểu cần thiết với nhà cung cấp bên thứ ba:</p>
+            <table>
+                <tr>
+                    <th>Nhà cung cấp</th>
+                    <th>Loại thông tin được chia sẻ</th>
+                    <th>Mục đích</th>
+                    <th>Chính sách riêng tư</th>
+                </tr>
+                <tr>
+                    <td><strong>Firebase Auth</strong></td>
+                    <td>Email, Social ID, Tên hiển thị</td>
+                    <td>Xác thực người dùng, đăng nhập Google/Apple</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Firebase Cloud Messaging</strong></td>
+                    <td>Instance ID, Token thiết bị</td>
+                    <td>Gửi thông báo đẩy</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Apple App Store</strong></td>
+                    <td>Mã giao dịch, Số vàng</td>
+                    <td>Xử lý mua hàng iOS, hoàn tiền</td>
+                    <td><a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Google Play Store</strong></td>
+                    <td>Mã giao dịch, Số vàng</td>
+                    <td>Xử lý mua hàng Android, hoàn tiền</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
+                </tr>
+            </table>
+
+            <div class="no-collect-box">
+                <h4>Chúng tôi cam kết KHÔNG:</h4>
+                <ul>
+                    <li>Bán dữ liệu cá nhân của bạn cho bất kỳ bên thứ ba nào</li>
+                    <li>Chia sẻ dữ liệu với các công ty quảng cáo để mục đích quảng cáo mục tiêu</li>
+                    <li>Chia sẻ dữ liệu với các nhà môi giới dữ liệu</li>
+                    <li>Chia sẻ dữ liệu với các công ty phân tích dữ liệu để bán insights</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section5">
+            <h2>5. COOKIE VÀ CÔNG CỤ THEO DÕI</h2>
+            <p>Ứng dụng Tài lộc quá lớn có thể sử dụng cookie và công nghệ tương tự để:</p>
+            <ul>
+                <li>Ghi nhớ các tùy chọn của bạn</li>
+                <li>Cải thiện hiệu suất của Ứng dụng</li>
+                <li>Phân tích cách bạn sử dụng Ứng dụng</li>
+            </ul>
+
+            <h3>5.1 Loại Cookie sử dụng</h3>
+            <table>
+                <tr>
+                    <th>Loại cookie</th>
+                    <th>Mục đích</th>
+                    <th>Thời gian tồn tại</th>
+                    <th>Có thể tắt?</th>
+                </tr>
+                <tr>
+                    <td><strong>Cookie thiết yếu</strong></td>
+                    <td>Đảm bảo Ứng dụng hoạt động chính xác</td>
+                    <td>Phiên bản</td>
+                    <td>Không</td>
+                </tr>
+                <tr>
+                    <td><strong>Cookie chức năng</strong></td>
+                    <td>Ghi nhớ tùy chọn người dùng</td>
+                    <td>Tùy chọn</td>
+                    <td>Có</td>
+                </tr>
+                <tr>
+                    <td><strong>Cookie phân tích</strong></td>
+                    <td>Phân tích hành vi sử dụng</td>
+                    <td>12 tháng</td>
+                    <td>Có</td>
+                </tr>
+            </table>
+
+            <div class="no-collect-box">
+                <h4>Chúng tôi KHÔNG sử dụng:</h4>
+                <ul>
+                    <li>Pixel theo dõi (Tracking Pixels)</li>
+                    <li>Web beacons</li>
+                    <li>Fingerprinting thiết bị</li>
+                    <li>Công nghệ theo dõi chéo (Cross-device tracking)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section6">
+            <h2>6. DỮ LIỆU PHÂN TÍCH VÀ LOG</h2>
+            <p>Chúng tôi sử dụng Firebase Analytics (một dịch vụ của Google) để thu thập thông tin ẩn danh về cách bạn sử dụng Ứng dụng:</p>
+            <ul>
+                <li>Thông tin này được thu thập ẩn danh và không thể xác định danh tính cá nhân</li>
+                <li>Dùng để cải thiện Ứng dụng và trải nghiệm người dùng</li>
+                <li>Không được chia sẻ với bên thứ ba cho mục đích quảng cáo</li>
+            </ul>
+
+            <h3>6.2 Chính sách lưu trữ log</h3>
+            <table>
+                <tr>
+                    <th>Loại log</th>
+                    <th>Thời gian lưu trữ</th>
+                    <th>Mục đích</th>
+                </tr>
+                <tr>
+                    <td>Log lỗi/crash</td>
+                    <td>6 tháng</td>
+                    <td>Khắc phục lỗi</td>
+                </tr>
+                <tr>
+                    <td>Log sử dụng</td>
+                    <td>12 tháng</td>
+                    <td>Phân tích, cải thiện</td>
+                </tr>
+                <tr>
+                    <td>Log bảo mật</td>
+                    <td>24 tháng</td>
+                    <td>Điều tra, giải quyết tranh chấp</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="section7">
+            <h2>7. QUYỀN CỦA CHỦ THỂ DỮ LIỆU</h2>
+            <p>Theo Luật An ninh mạng Việt Nam và các quy định liên quan, bạn có các quyền sau đối với dữ liệu cá nhân của mình:</p>
+
+            <h3>7.1 Quyền truy cập (Right of Access)</h3>
+            <p>Bạn có quyền yêu cầu biết chúng tôi đang lưu trữ những thông tin gì về bạn.</p>
+            <p><strong>Cách thực hiện:</strong></p>
+            <ul>
+                <li>Trong Ứng dụng: Vào Hồ sơ > Thông tin cá nhân</li>
+                <li>Qua Email: Gửi yêu cầu đến hongpm@dvat.com.vn</li>
+            </ul>
+            <p><strong>Thời gian phản hồi:</strong> Trong vòng 15 ngày làm việc</p>
+
+            <h3>7.2 Quyền xóa (Right to Erasure)</h3>
+            <p><strong>Cách thực hiện:</strong></p>
+            <ul>
+                <li>Trong Ứng dụng: Hồ sơ > Cài đặt > Xóa tài khoản</li>
+                <li>Qua Email: Gửi yêu cầu đến hongpm@dvat.com.vn</li>
+            </ul>
+
+            <div class="warning-box">
+                <strong>Lưu ý quan trọng:</strong>
+                <ul>
+                    <li>Khi xóa tài khoản, toàn bộ thông tin cá nhân, số vàng và dữ liệu hoạt động sẽ bị xóa vĩnh viễn</li>
+                    <li>Dữ liệu sẽ không thể khôi phục sau khi đã xóa</li>
+                    <li>Một số dữ liệu có thể được lưu giữ trong hệ thống sao lưu trong tối đa 30 ngày trước khi được xóa hoàn toàn</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section8">
+            <h2>8. BẢO MẬT THÔNG TIN VÀ CHUYỂN DỮ LIỆU</h2>
+            <h3>8.1 Biện pháp bảo mật kỹ thuật</h3>
+            <p>Chúng tôi thực hiện các biện pháp bảo mật kỹ thuật phù hợp để bảo vệ thông tin cá nhân:</p>
+            <table>
+                <tr>
+                    <th>Biện pháp</th>
+                    <th>Mô tả</th>
+                </tr>
+                <tr>
+                    <td><strong>Mã hóa khi truyền tải</strong></td>
+                    <td>Sử dụng TLS/SSL để mã hóa dữ liệu khi truyền qua internet</td>
+                </tr>
+                <tr>
+                    <td><strong>Mã hóa khi lưu trữ</strong></td>
+                    <td>Dữ liệu nhạy cảm được mã hóa khi lưu trữ trên máy chủ</td>
+                </tr>
+                <tr>
+                    <td><strong>Tường lửa (Firewall)</strong></td>
+                    <td>Sử dụng tường lửa để ngăn chặn truy cập trái phép</td>
+                </tr>
+                <tr>
+                    <td><strong>Kiểm soát truy cập</strong></td>
+                    <td>Chỉ nhân viên có nhu cầu công việc mới được truy cập dữ liệu</td>
+                </tr>
+                <tr>
+                    <td><strong>Xác thực đa yếu tố</strong></td>
+                    <td>Yêu cầu 2FA cho truy cập hệ thống quản trị</td>
+                </tr>
+                <tr>
+                    <td><strong>Backup định kỳ</strong></td>
+                    <td>Sao lưu dữ liệu định kỳ để phòng ngừa mất mát</td>
+                </tr>
+                <tr>
+                    <td><strong>Auditing</strong></td>
+                    <td>Ghi log tất cả các hoạt động truy cập dữ liệu</td>
+                </tr>
+            </table>
+
+            <h3>8.2 Chuyển dữ liệu quốc tế</h3>
+            <p>Thông tin cá nhân của bạn có thể được chuyển đến và xử lý tại:</p>
+            <ul>
+                <li><strong>Mỹ:</strong> Nơi đặt máy chủ của Google Firebase</li>
+                <li><strong>Singapore/Đông Nam Á:</strong> Nơi đặt máy chủ dự phòng</li>
+            </ul>
+        </section>
+
+        <section id="section9">
+            <h2>9. LƯU TRỮ VÀ XÓA DỮ LIỆU</h2>
+            <p>Chúng tôi chỉ lưu giữ Dữ liệu Cá nhân của bạn trong thời gian cần thiết cho các mục đích nêu trong Chính sách Quyền riêng tư này, trừ khi thời gian lưu giữ lâu hơn được yêu cầu hoặc cho phép theo luật pháp.</p>
+
+            <h3>9.2 Thời gian lưu trữ cụ thể</h3>
+            <table>
+                <tr>
+                    <th>Loại dữ liệu</th>
+                    <th>Thời gian lưu trữ</th>
+                    <th>Lý do</th>
+                </tr>
+                <tr>
+                    <td><strong>Thông tin tài khoản</strong></td>
+                    <td>Khoảng 30 ngày sau xóa tài khoản</td>
+                    <td>Để khôi phục nếu cần thiết</td>
+                </tr>
+                <tr>
+                    <td><strong>Dữ liệu giao dịch</strong></td>
+                    <td>Tối thiểu 2 năm</td>
+                    <td>Yêu cầu pháp lý về thương mại điện tử</td>
+                </tr>
+                <tr>
+                    <td><strong>Log lỗi/crash</strong></td>
+                    <td>6 tháng</td>
+                    <td>Khắc phục lỗi</td>
+                </tr>
+                <tr>
+                    <td><strong>Log sử dụng</strong></td>
+                    <td>12 tháng</td>
+                    <td>Phân tích, cải thiện</td>
+                </tr>
+                <tr>
+                    <td><strong>Biên lai giao dịch</strong></td>
+                    <td>2 năm</td>
+                    <td>Hỗ trợ, giải quyết tranh chấp</td>
+                </tr>
+                <tr>
+                    <td><strong>Nội dung người dùng</strong></td>
+                    <td>Đến khi xóa tài khoản</td>
+                    <td>Cung cấp dịch vụ</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="section10">
+            <h2>10. QUYỀN RIÊNG TƯ CỦA TRẺ EM</h2>
+            <h3>10.1 Tuổi tối thiểu</h3>
+            <p>Dịch vụ của chúng tôi không dành cho trẻ em dưới 13 tuổi (hoặc theo quy định của pháp luật tại khu vực của bạn).</p>
+
+            <h3>10.2 Không cố ý thu thập</h3>
+            <p>Chúng tôi không cố ý thu thập thông tin nhận dạng cá nhân từ trẻ em dưới 13 tuổi mà không có sự đồng ý có thể kiểm chứng của cha mẹ hoặc người giám hộ hợp pháp.</p>
+
+            <h3>10.3 Quyền của phụ huynh</h3>
+            <p>Cha mẹ hoặc người giám hộ có quyền:</p>
+            <ul>
+                <li>Xem xét thông tin của con mình</li>
+                <li>Yêu cầu xóa thông tin của con mình</li>
+                <li>Thu hồi sự đồng ý đã cấp</li>
+                <li>Liên hệ với chúng tôi để hỗ trợ</li>
+            </ul>
+
+            <p>Nếu bạn là cha mẹ hoặc người giám hộ và bạn biết rằng con bạn đã cung cấp thông tin cho chúng tôi, vui lòng liên hệ ngay lập tức:</p>
+            <p><strong>Email:</strong> hongpm@dvat.com.vn</p>
+        </section>
+
+        <section id="section11">
+            <h2>11. LIÊN KẾT BÊN THỨ BA</h2>
+            <p>Ứng dụng có thể chứa liên kết đến các trang web hoặc dịch vụ của bên thứ ba bao gồm:</p>
+            <ul>
+                <li>Google (cho đăng nhập)</li>
+                <li>Các trang web tham khảo trong tính năng chia sẻ</li>
+            </ul>
+
+            <h3>11.1 Không chịu trách nhiệm</h3>
+            <p>Chúng tôi không kiểm soát và không chịu trách nhiệm về:</p>
+            <ul>
+                <li>Nội dung, chính sách quyền riêng tư hoặc thực tiễn của các bên thứ ba</li>
+                <li>Bảo mật thông tin khi bạn truy cập các trang web bên thứ ba</li>
+            </ul>
+
+            <h3>11.2 Khuyến nghị</h3>
+            <p>Chúng tôi khuyến khích bạn:</p>
+            <ul>
+                <li>Đọc kỹ chính sách quyền riêng tư của từng bên thứ ba</li>
+                <li>Cảnh trọng khi cung cấp thông tin cá nhân cho các trang web bên thứ ba</li>
+            </ul>
+        </section>
+
+        <section id="section12">
+            <h2>12. NỘI DUNG DO NGƯỜI DÙNG TẠO</h2>
+            <h3>12.1 Nội dung do bạn tạo</h3>
+            <p>Ứng dụng có thể cho phép bạn tạo và chia sẻ nội dung, bao gồm:</p>
+            <ul>
+                <li>Cấu hình bàn thờ cá nhân</li>
+                <li>Chọn vật phẩm và vị trí đặt vật phẩm</li>
+                <li>Tham gia tương tác xã hội (nếu có)</li>
+            </ul>
+
+            <h3>12.2 Quyền đối với nội dung</h3>
+            <p>Bạn giữ lại quyền sở hữu đối với bất kỳ nội dung nào bạn tạo. Tuy nhiên, bằng cách tải lên, chia sẻ hoặc gửi nội dung, bạn cấp cho chúng tôi:</p>
+            <ul>
+                <li>Quyền sử dụng, lưu trữ, sao chép, hiển thị nội dung của bạn</li>
+                <li>Quyền chia sẻ nội dung với người dùng khác (khi cần thiết cho dịch vụ)</li>
+            </ul>
+
+            <h3>12.3 Đảm bảo của bạn</h3>
+            <p>Khi tạo và chia sẻ nội dung, bạn đảm bảo rằng:</p>
+            <ul>
+                <li>Bạn có quyền sử dụng nội dung đó</li>
+                <li>Nội dung không vi phạm quyền của bất kỳ bên thứ ba nào</li>
+                <li>Nội dung không vi phạm pháp luật</li>
+            </ul>
+        </section>
+
+        <section id="section13">
+            <h2>13. THÔNG BÁO VI PHẠM DỮ LIỆU</h2>
+            <h3>13.1 Cam kết thông báo</h3>
+            <p>Trong trường hợp phát hiện vi phạm dữ liệu có khả năng gây rủi ro cho quyền và lợi ích hợp pháp của bạn, chúng tôi cam kết:</p>
+            <ul>
+                <li>Thông báo cho bạn trong vòng <strong>72 giờ</strong> sau khi phát hiện vi phạm</li>
+                <li>Cung cấp thông tin chi tiết về vi phạm</li>
+                <li>Khuyến nghị các biện pháp phòng ngừa cần thiết</li>
+            </ul>
+
+            <h3>13.2 Phương thức thông báo</h3>
+            <p>Chúng tôi sẽ thông báo qua:</p>
+            <ul>
+                <li>Thông báo trong Ứng dụng</li>
+                <li>Email đến địa chỉ đã đăng ký</li>
+                <li>Thông báo trên website (nếu áp dụng)</li>
+            </ul>
+        </section>
+
+        <section id="section14">
+            <h2>14. THAY ĐỔI CHÍNH SÁCH QUYỀN RIÊNG TƯ</h2>
+            <p>Chúng tôi có thể sửa đổi, cập nhật hoặc thay đổi Chính sách Quyền riêng tư này theo thời gian để:</p>
+            <ul>
+                <li>Phản ánh những thay đổi trong thực tiễn kinh doanh</li>
+                <li>Tuân thủ các thay đổi trong luật pháp và quy định</li>
+                <li>Cải thiện sự minh bạch và trải nghiệm người dùng</li>
+                <li>Bổ sung tính năng hoặc dịch vụ mới</li>
+            </ul>
+
+            <h3>14.2 Thông báo thay đổi</h3>
+            <p>Khi cập nhật được thực hiện, chúng tôi sẽ thông báo cho bạn thông qua:</p>
+            <table>
+                <tr>
+                    <th>Phương thức</th>
+                    <th>Khi nào sử dụng</th>
+                </tr>
+                <tr>
+                    <td><strong>Thông báo trong Ứng dụng</strong></td>
+                    <td>Cho tất cả thay đổi</td>
+                </tr>
+                <tr>
+                    <td><strong>Thông báo đẩy</strong></td>
+                    <td>Cho thay đổi quan trọng</td>
+                </tr>
+                <tr>
+                    <td><strong>Email</strong></td>
+                    <td>Khi có thay đổi đáng kể</td>
+                </tr>
+                <tr>
+                    <td><strong>Cập nhật ngày "Cập nhật lần cuối"</strong></td>
+                    <td>Cho tất cả thay đổi</td>
+                </tr>
+            </table>
+
+            <h3>14.3 Tiếp tục sử dụng</h3>
+            <p>Việc tiếp tục sử dụng Ứng dụng sau khi nhận được thông báo về thay đổi cấu thành sự chấp nhận của bạn đối với Chính sách Quyền riêng tư đã sửa đổi.</p>
+            <p>Nếu bạn không đồng ý với các thay đổi, bạn nên:</p>
+            <ul>
+                <li>Ngừng sử dụng Ứng dụng</li>
+                <li>Xóa tài khoản của bạn</li>
+            </ul>
+        </section>
+
+        <section id="section15">
+            <h2>15. PHƯƠNG THỨC GIẢI QUYẾT TRANH CHẤP</h2>
+            <h3>15.1 Bước đầu tiên - Liên hệ</h3>
+            <p>Nếu bạn có bất kỳ vấn đề nào về việc xử lý dữ liệu cá nhân của mình:</p>
+            <p><strong>Bước 1:</strong> Liên hệ với chúng tôi</p>
+            <ul>
+                <li><strong>Email:</strong> hongpm@dvat.com.vn</li>
+                <li><strong>Thời gian phản hồi:</strong> Trong vòng 15 ngày làm việc</li>
+            </ul>
+            <p><strong>Bước 2:</strong> Cung cấp thông tin chi tiết</p>
+            <ul>
+                <li>Mô tả rõ vấn đề</li>
+                <li>Cung cấp thông tin tài khoản</li>
+                <li>Chỉ rõ giải pháp mong muốn</li>
+            </ul>
+
+            <h3>15.2 Bước thứ hai - Khiếu nại nội bộ</h3>
+            <p>Nếu bạn không hài lòng với phản hồi từ chúng tôi, bạn có quyền khiếu nại nội bộ:</p>
+            <ul>
+                <li>Gửi khiếu nại đến hongpm@dvat.com.vn với tiêu đề: <strong>"KHIẾU NẠI RIÊNG TƯ"</strong></li>
+                <li>Chúng tôi sẽ xem xét và phản hồi trong vòng <strong>30 ngày làm việc</strong></li>
+            </ul>
+
+            <h3>15.3 Bước thứ ba - Cơ quan bên ngoài</h3>
+            <p>Nếu khiếu nại nội bộ không giải quyết được vấn đề, bạn có quyền:</p>
+            <ul>
+                <li>Khiếu nại đến Cục An toàn thông tin, Bộ Thông tin và Truyền thông</li>
+                <li>Khiếu nại đến Cơ quan An ninh mạng có thẩm quyền</li>
+                <li>Gửi đơn khởi kiện đến Tòa án có thẩm quyền</li>
+            </ul>
+        </section>
+
+        <section id="section16">
+            <h2>16. LIÊN HỆ</h2>
+            <p>Nếu bạn có bất kỳ câu hỏi, thắc mắc hoặc yêu cầu nào về Chính sách Quyền riêng tư này, vui lòng liên hệ với chúng tôi.</p>
+
+            <div class="contact-box">
+                <div class="contact-info">
+                    <table>
+                        <tr>
+                            <td style="border:none; width: 30%;"><strong>Tên công ty:</strong></td>
+                            <td style="border:none;">CÔNG TY CỔ PHẦN CÔNG NGHỆ DVAT<br>(DVAT TECHNOLOGY JOINT STOCK COMPANY)</td>
+                        </tr>
+                        <tr>
+                            <td style="border:none;"><strong>Email:</strong></td>
+                            <td style="border:none;"><a href="mailto:hongpm@dvat.com.vn">hongpm@dvat.com.vn</a></td>
+                        </tr>
+                        <tr>
+                            <td style="border:none;"><strong>Website:</strong></td>
+                            <td style="border:none;"><a href="https://dvat.com.vn/" target="_blank">https://dvat.com.vn/</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <p style="color: white; text-align: center; margin-top: 20px; margin-bottom: 0;">
+                    Chúng tôi cam kết phản hồi các yêu cầu liên quan đến quyền riêng tư trong thời gian sau:
+                </p>
+                <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 8px;">
+                    <table style="color: white; margin: 0;">
+                        <tr>
+                            <td style="border:none; padding: 8px 15px;">Yêu cầu truy cập dữ liệu</td>
+                            <td style="border:none; padding: 8px 15px;">15 ngày làm việc</td>
+                        </tr>
+                        <tr>
+                            <td style="border:none; padding: 8px 15px;">Yêu cầu xóa tài khoản</td>
+                            <td style="border:none; padding: 8px 15px;">7 ngày làm việc</td>
+                        </tr>
+                        <tr>
+                            <td style="border:none; padding: 8px 15px;">Yêu cầu cập nhật/sửa đổi</td>
+                            <td style="border:none; padding: 8px 15px;">7 ngày làm việc</td>
+                        </tr>
+                        <tr>
+                            <td style="border:none; padding: 8px 15px;">Câu hỏi chung</td>
+                            <td style="border:none; padding: 8px 15px;">5 ngày làm việc</td>
+                        </tr>
+                        <tr>
+                            <td style="border:none; padding: 8px 15px;">Khiếu nại</td>
+                            <td style="border:none; padding: 8px 15px;">30 ngày làm việc</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>Bản quyền © 2026 Công ty Cổ phần Công nghệ DVAT. Bảo lưu mọi quyền.</strong></p>
+            <p style="margin-top: 10px;">
+                Chính sách Quyền riêng tư này được soạn thảo tuân theo Luật An ninh mạng Việt Nam 2018, Luật An toàn thông tin mạng 2015 và các quy định pháp luật liên quan có hiệu lực tại thời điểm áp dụng.
+            </p>
+        </footer>
     </div>
-  </body>
+</body>
 </html>
